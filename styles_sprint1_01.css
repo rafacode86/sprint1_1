@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+
+.main {
+    max-width: 1200px;
+    max-height: 1200px;
+    width: 80%;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.contenedor-1 {
+    display: flex;
+    border: 33px solid black;
+    background-color: navy;
+    padding: 33px;
+    gap: 30px;
+}
+
+.logo {
+    flex-grow: 1;
+    background-color: red;
+    /*margin: 2.75%;*/
+    padding: 15px;
+}
+.nav {
+    flex-grow: 4;
+    background-color: red;
+    /*margin: 2.75%;*/
+    padding: 15px;
+}
+.social {
+    flex-grow: 1;
+    background-color: red;
+    /*margin: 2.75%;*/
+    padding: 15px;
+}
+
+.contenedor-2 {
+    background-color: orange;
+    border-bottom: 33px solid black;
+    border-right: 33px solid black;
+    border-left: 33px solid black;
+    padding: 33px;
+}
+
+.banner {
+    background-color: yellow;padding: 10px;
+    font-size: 25px;
+
+}
+
+.contenedor-3 {
+    display: flex;
+}
+
+.articles {
+    background-color: blueviolet;
+    display: flex;
+    flex: 4.5;
+    flex-wrap: wrap;
+    border: 33px solid black;
+    padding: 33px;
+    margin-top: 33px;
+}
+
+.article {
+    background-color: blue;
+    flex: 1 1 40%;
+    padding: 15px;
+    margin-bottom: 33px;
+
+}
+
+#article2, #article4 {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+.navegacion {
+    background-color: aquamarine;
+    flex: 1 1 100%;
+    padding: 15px;
+}
+
+.cuadro-publicidad {
+    display: flex;
+    flex: 1; 
+    background-color: red;
+    border-top: 33px solid black;
+    border-right: 33px solid black;
+    border-bottom: 33px solid black;
+    flex-direction: column;
+    padding-bottom: 33px;
+    margin-top: 33px;
+}
+
+.publicidad {
+    background-color: yellow;
+    padding: 10px;
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.pie {
+    background-color: yellow;
+    border: 33px solid black;
+    padding: 15px;
+    margin-top: 33px;
+}
