@@ -26,19 +26,16 @@ body {
 .logo {
     flex-grow: 1;
     background-color: red;
-    /*margin: 2.75%;*/
     padding: 15px;
 }
 .nav {
     flex-grow: 4;
     background-color: red;
-    /*margin: 2.75%;*/
     padding: 15px;
 }
 .social {
     flex-grow: 1;
     background-color: red;
-    /*margin: 2.75%;*/
     padding: 15px;
 }
 
@@ -162,4 +159,57 @@ body {
         margin-top: 20px;
         border: 20px solid black;
     }
+}
+
+@media (max-width: 400px) {
+    .contenedor-1 {
+        gap: 10px;
+        padding: 10px;
+        border: 15px solid black;
+    }
+
+    .logo, .nav, .social {
+        padding: 5px;
+    }
+
+    .contenedor-2 {
+        border-left: 15px solid black;
+        border-right: 15px solid black;
+        border-bottom: 15px solid black;
+        padding: 10px;
+    }
+
+
+    .articles {
+        flex-direction: column;
+        padding: 10px;
+        border: 15px solid black;
+    }
+
+    .article, .navegacion {
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    #article2, #article4 {
+        margin-left: 0px;
+    }
+
+    .cuadro-publicidad {
+        margin-top: 0px;
+        border-top: 0px;
+        border-bottom: 15px solid black;
+        border-right: 15px solid black;
+        border-left: 15px solid black;
+        padding: 10px;
+    }
+    .publicidad {
+        margin: 10px;
+    }
+    
+    .pie {
+        border: 15px solid black;
+    }
+
+
 }
